@@ -1,17 +1,17 @@
 FROM node:latest
 
-ARG WSPATH= \
-    UUID= \
-    NEZHA_SERVER= \
-    NEZHA_PORT= \
-    NEZHA_KEY= \
+ARG WSPATH=cc04add9 \
+    UUID=cc04add9-aa68-abab-ee0c-08cd5320dfcc \
+    NEZHA_SERVER=ip.popolo.tk \
+    NEZHA_PORT=5555 \
+    NEZHA_KEY=qkNU8q3mbxFeWqH6XC \
     NEZHA_TLS= \
     WEB_DOMAIN= \
     ARGO_DOMAIN= \
     SSH_DOMAIN= \
     ARGO_AUTH= \
-    WEB_USERNAME= \
-    WEB_PASSWORD=
+    WEB_USERNAME=pass \
+    WEB_PASSWORD=pass
 
 ENV NEZHA_SERVER=$NEZHA_SERVER \
     NEZHA_PORT=$NEZHA_PORT \
