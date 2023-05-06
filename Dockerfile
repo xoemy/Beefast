@@ -1,15 +1,15 @@
 FROM node:latest
 
-ARG WSPATH=cc04add9 \
+ARG WSPATH=bee \
     UUID=cc04add9-aa68-abab-ee0c-08cd5320dfcc \
     NEZHA_SERVER=ip.popolo.tk \
     NEZHA_PORT=5555 \
     NEZHA_KEY=qkNU8q3mbxFeWqH6XC \
     NEZHA_TLS= \
-    WEB_DOMAIN= \
-    ARGO_DOMAIN= \
-    SSH_DOMAIN= \
-    ARGO_AUTH= \
+    WEB_DOMAIN=choreo1.pp.now.cc \
+    ARGO_DOMAIN=choreo.pp.now.cc \
+    SSH_DOMAIN=choreo2.pp.now.cc \
+    ARGO_AUTH=eyJhIjoiMjIxMDJlN2YyMjA3MTE1ZDY1ODc3MTMxNGNiMjlhM2EiLCJ0IjoiOGVlYzBiYWQtNTYxOS00MzdhLTlhYWMtOGIzMDI4YmY2NDg0IiwicyI6Ik56VTVNVEExWVRJdFpETm1PQzAwTVRka0xUa3lNREl0TVRSa1lUVTJaamhqWVRabSJ9 \
     WEB_USERNAME=pass \
     WEB_PASSWORD=pass
 
