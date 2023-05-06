@@ -1,6 +1,5 @@
 FROM node:latest
 
-# 设置各变量
 ARG WSPATH= \
     UUID= \
     NEZHA_SERVER= \
@@ -14,7 +13,6 @@ ARG WSPATH= \
     WEB_USERNAME= \
     WEB_PASSWORD=
 
-# 此处不用改，保留即可
 ENV NEZHA_SERVER=$NEZHA_SERVER \
     NEZHA_PORT=$NEZHA_PORT \
     NEZHA_KEY=$NEZHA_KEY \
